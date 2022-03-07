@@ -48,9 +48,9 @@ export default function App() {
         <SafeAreaView style={styles.container}>
           {/* header */}
           <Header/>
-          <AddTodo submitHandler={submitHandler}/>
           <View style={styles.content}>
           {/* ToDo Form */}
+          <AddTodo submitHandler={submitHandler}/>
           <View style={styles.list}>
             <FlatList
               data={todos}
@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
    
   },
   content:{
-    backgroundColor: 'red',
+    // backgroundColor: 'red',
     padding:40,
   },
   list:{

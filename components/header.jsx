@@ -6,7 +6,7 @@ export default function Header() {
 
     return(
         <View style={styles.header}>
-            <Text style={styles.title}>How is it that this is not working?</Text>
+            <Text style={styles.title}>Todo List</Text>
         </View>
     )
 }
